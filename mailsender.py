@@ -8,8 +8,8 @@ from email.mime.image import MIMEImage
 # set up the SMTP server
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
-smtp_username = 'osdcjiit@gmail.com'
-smtp_password = 'detmnsslwypacbma'
+smtp_username = ''
+smtp_password = ''
 
 # read email addresses and image filenames from CSV file
 with open('recipients.csv', 'r') as csvfile:
